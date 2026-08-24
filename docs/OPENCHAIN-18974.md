@@ -56,12 +56,15 @@ The person named in §2 maintains working knowledge of:
 
 | Role | Person | Responsibility |
 |---|---|---|
-| Security assurance lead | Sebastián Quintero — contact@basisnetwork.com.co | Policy, triage, remediation decisions, coordinated disclosure |
-| Security contact | Sebastián Quintero — contact@basisnetwork.com.co | Receives reports |
+| Security assurance lead | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Policy, triage, remediation decisions, coordinated disclosure |
+| Security contact | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Receives reports |
+| Second maintainer | David Alejandro Blandón Román — contact@basisnetwork.com.co | Equal access to the repositories: can publish a fix and a release while the assurance lead is unavailable |
 
-**This is one person**, and it is the main limitation of this programme: there
-is no redundancy in triage or response. Reports arriving during an absence
-wait. We state the timelines in §4 anyway, and we ask reporters to resend
+**Triage and disclosure remain one person's**, and that is the main limitation
+of this programme. Reaching two maintainers changed one thing and not the
+other: a fix can now be published while the lead is away, but reports are still
+read and triaged by one person, so a report arriving during an absence can
+still wait. We state the timelines in §4 anyway, and we ask reporters to resend
 rather than assume silence is a decision.
 
 **Resources:** the automated controls in §3 run in CI at no cost and are
