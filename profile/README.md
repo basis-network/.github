@@ -49,7 +49,15 @@ tokens and chain parameters are documented at
 Our open source programme is documented under
 [`docs/`](https://github.com/basis-network/.github/tree/main/docs):
 [licence compliance](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-5230.md)
-and [security assurance](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974.md).
+and [security assurance](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974.md),
+against ISO/IEC 5230 and ISO/IEC 18974, with the
+[records](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-PROGRAMME-RECORDS.md)
+both standards require. The OpenChain self-certification checklists are
+published answered —
+[5230](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-5230-CHECKLIST.md),
+[18974](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974-CHECKLIST.md)
+— including the items we have **not** met, because a conformance claim you
+cannot check is worth less than a gap you can.
 
 ## Contact
 

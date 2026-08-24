@@ -7,8 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 
 **Conformance target:** ISO/IEC 5230:2020 (OpenChain Licence Compliance)
 **Organisation:** Basis Network
-**Version:** 1.0 · 2026-08-23
-**Next review:** 2027-08-23
+**Version:** 1.1 · 2026-08-24
+**Next review:** 2027-08-24
+**Records:** [programme records](./OPENCHAIN-PROGRAMME-RECORDS.md) ·
+**Self-certification:** [completed checklist](./OPENCHAIN-5230-CHECKLIST.md)
 
 This document describes how we handle open source licence obligations. It is
 deliberately short. We are a small team, and a policy that describes a process
@@ -176,9 +178,17 @@ This programme is reviewed **annually**, and whenever:
 The review checks that this document still describes what actually happens.
 Where it does not, the document is corrected — not the other way round.
 
-**Self-certification status:** this document is prepared to support
-self-certification against ISO/IEC 5230:2020. The declaration itself, when
-made, is signed by the programme lead and published here.
+The records this review produces — assessed competence, awareness, scope,
+components, the artifact archive and the review log itself — are kept in the
+[programme records](./OPENCHAIN-PROGRAMME-RECORDS.md).
+
+**Self-certification status:** the OpenChain self-certification checklist for
+ISO/IEC 5230:2020 has been completed and is published at
+[`OPENCHAIN-5230-CHECKLIST.md`](./OPENCHAIN-5230-CHECKLIST.md), with a pointer
+to the evidence for every item. As of the 2026-08-24 review, **28 of 34 items
+are met and six are open**, so we do not yet claim conformance. The open items
+and what closes each are listed at the end of that checklist. The declaration
+is signed by the programme lead and published here once they close.
 
 ## Reporting a compliance concern
 

@@ -7,8 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 
 **Conformance target:** ISO/IEC 18974:2023 (OpenChain Security Assurance)
 **Organisation:** Basis Network
-**Version:** 1.0 · 2026-08-23
-**Next review:** 2027-08-23
+**Version:** 1.1 · 2026-08-24
+**Next review:** 2027-08-24
+**Records:** [programme records](./OPENCHAIN-PROGRAMME-RECORDS.md) ·
+**Self-certification:** [completed checklist](./OPENCHAIN-18974-CHECKLIST.md)
 
 Companion to the [licence compliance programme](./OPENCHAIN-5230.md). Same
 principle: this describes what we actually do. Where a control does not exist
@@ -151,9 +153,16 @@ Reviewed **annually**, and whenever:
 The review checks that this document still describes what happens. Where it
 does not, the document is corrected.
 
-**Self-certification status:** prepared to support self-certification against
-ISO/IEC 18974:2023. The declaration, when made, is signed by the security
-assurance lead and published here.
+Programme participants, assessed competence, scope, metrics, component records
+including known vulnerabilities and action taken, and the review log are kept
+in the [programme records](./OPENCHAIN-PROGRAMME-RECORDS.md).
+
+**Self-certification status:** the OpenChain self-certification checklist for
+ISO/IEC 18974:2023 has been completed and is published at
+[`OPENCHAIN-18974-CHECKLIST.md`](./OPENCHAIN-18974-CHECKLIST.md). As of the
+2026-08-24 review, **30 of 35 items are met and five are open**, all five
+closing on a single acknowledgement. We do not claim conformance until they do.
+The declaration is signed by the security assurance lead and published here.
 
 ## Reporting
 
