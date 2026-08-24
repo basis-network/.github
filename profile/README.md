@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 BASE COMPUTING S.A.S.
+SPDX-FileCopyrightText: 2026 Basis Network
 SPDX-License-Identifier: Apache-2.0
 -->
 

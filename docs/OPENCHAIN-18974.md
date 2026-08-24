@@ -1,12 +1,12 @@
 <!--
-SPDX-FileCopyrightText: 2026 BASE COMPUTING S.A.S.
+SPDX-FileCopyrightText: 2026 Basis Network
 SPDX-License-Identifier: Apache-2.0
 -->
 
 # Open Source Security Assurance Programme
 
 **Conformance target:** ISO/IEC 18974:2023 (OpenChain Security Assurance)
-**Organisation:** BASE COMPUTING S.A.S. — Basis Network
+**Organisation:** Basis Network
 **Version:** 1.0 · 2026-08-23
 **Next review:** 2027-08-23
 

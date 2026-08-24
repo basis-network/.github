@@ -1,12 +1,12 @@
 <!--
-SPDX-FileCopyrightText: 2026 BASE COMPUTING S.A.S.
+SPDX-FileCopyrightText: 2026 Basis Network
 SPDX-License-Identifier: Apache-2.0
 -->
 
 # Open Source Licence Compliance Programme
 
 **Conformance target:** ISO/IEC 5230:2020 (OpenChain Licence Compliance)
-**Organisation:** BASE COMPUTING S.A.S. — Basis Network
+**Organisation:** Basis Network
 **Version:** 1.0 · 2026-08-23
 **Next review:** 2027-08-23
 
