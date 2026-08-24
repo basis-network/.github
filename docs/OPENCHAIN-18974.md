@@ -82,7 +82,7 @@ allocated ahead of feature work.
 | Pinned-dependency freshness | Dependabot, weekly | active |
 | Licence/attribution integrity | `reuse lint` in CI, blocking | active |
 | Release integrity | Published assets verified against checksums committed in git | active |
-| Artifact signing | Sigstore cosign, keyless, in the release workflow | active from v0.1.1 |
+| Artifact signing | Sigstore cosign, keyless, in the release workflow | active |
 | Dependency vulnerability scanning of the node workspace | `cargo audit` in the `basis-core` build | not yet public |
 | Fuzzing | — | not implemented |
 

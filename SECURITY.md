@@ -40,8 +40,7 @@ explorer are in scope at the same address, even where that code is not public.
 ## Verifying what you downloaded
 
 Release binaries have a SHA-256 committed to their repository under
-`checksums/`, and from v0.1.1 onwards are signed with Sigstore cosign in
-keyless mode. The checksum is deliberately kept out of the release that serves
+`checksums/`, and are signed with Sigstore cosign in keyless mode. The checksum is deliberately kept out of the release that serves
 the binary: one stored beside the file it describes proves nothing.
 
 ## How we run this
