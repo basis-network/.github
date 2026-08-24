@@ -1,0 +1,11 @@
+version = 1
+
+SPDX-PackageName = "basis-network-org"
+SPDX-PackageSupplier = "BASE COMPUTING S.A.S. <contact@basisnetwork.com.co>"
+SPDX-PackageDownloadLocation = "https://github.com/basis-network/.github"
+
+[[annotations]]
+path = ["LICENSE", "NOTICE", "CODE_OF_CONDUCT.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 BASE COMPUTING S.A.S."
+SPDX-License-Identifier = "Apache-2.0"

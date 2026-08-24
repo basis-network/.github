@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 BASE COMPUTING S.A.S.
+# SPDX-License-Identifier: Apache-2.0
+#
+# This repository is documents. The one thing worth checking mechanically is
+# that every one of them states its copyright and licence.
+name: lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions: read-all
+
+jobs:
+  reuse:
+    name: REUSE compliance
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: fsfe/reuse-action@bb774aa972c2a89ff34781233d275075cbddf542 # v5
