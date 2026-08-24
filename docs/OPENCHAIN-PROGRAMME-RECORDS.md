@@ -269,7 +269,7 @@ document.
 
 | Date | Reviewer | Scope of review | Outcome |
 |---|---|---|---|
-| 2026-08-24 | Sebastian Tobar Quintero | Full review of both programmes against the OpenChain self-certification checklists for ISO/IEC 5230:2020 and ISO/IEC 18974:2023 | **Conformant.** The review found the programme documents described the practice accurately but did not hold several records the standards require: assessed competence, the awareness record, a written scope statement, component records, metrics, the artifact archive, non-conformance handling, and a review record. This document was created to hold them. The completed checklists were published at the same time. |
+| 2026-08-24 | Sebastian Tobar Quintero | Full review of both programmes against the OpenChain self-certification checklists for ISO/IEC 5230:2020 and ISO/IEC 18974:2023 | **Reviewed — not yet conformant**: 28 of 34 items met for [ISO/IEC 5230](./OPENCHAIN-5230-CHECKLIST.md) and 30 of 35 for [ISO/IEC 18974](./OPENCHAIN-18974-CHECKLIST.md), with the open items and what closes each listed at the end of both. The review found the programme documents described the practice accurately but did not hold several records the standards require: assessed competence, the awareness record, a written scope statement, component records, metrics, the artifact archive, non-conformance handling, and a review record. This document was created to hold them. The completed checklists were published at the same time. |
 | 2026-08-23 | Sebastian Tobar Quintero | Initial authoring of both programme documents | Programmes published |
 
 **Next scheduled review: 2027-08-24.**
