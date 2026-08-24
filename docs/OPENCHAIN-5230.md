@@ -70,12 +70,17 @@ Licence obligations are stated where the work happens, not only here:
 
 | Role | Person | Responsibility |
 |---|---|---|
-| Open source programme lead | Sebastián Quintero — contact@basisnetwork.com.co | Policy, decisions on inbound licences, resolution of compliance issues, this document |
-| Licence compliance contact | Sebastián Quintero — contact@basisnetwork.com.co | External point of contact for licence questions and claimed violations |
+| Open source programme lead | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Policy, decisions on inbound licences, resolution of compliance issues, this document |
+| Licence compliance contact | Sebastian Tobar Quintero — contact@basisnetwork.com.co | External point of contact for licence questions and claimed violations |
+| Second maintainer | David Alejandro Blandón Román — contact@basisnetwork.com.co | Equal access to the repositories: can review, merge and release while the programme lead is unavailable |
 
-**This is one person.** We state it rather than distributing the same name
-across invented roles. The concrete consequence is a single point of failure
-for review and response, and it is the main limitation of this programme.
+**Both programme roles above are held by one person**, and the second
+maintainer is a backstop for access rather than a second reviewer. We state it
+that way rather than distributing the same names across invented roles. What
+changed when the project reached two maintainers is that access and the ability
+to act no longer depend on one person; what has not changed is that the
+decisions in this document, and the first response to an enquiry, still do.
+That remains the main limitation of this programme.
 
 **External enquiries** reach contact@basisnetwork.com.co. Enquiries about
 licence compliance are acknowledged within 10 working days.
