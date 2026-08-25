@@ -75,6 +75,7 @@ Licence obligations are stated where the work happens, not only here:
 | Open source programme lead | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Policy, decisions on inbound licences, resolution of compliance issues, this document |
 | Licence compliance contact | Sebastian Tobar Quintero — contact@basisnetwork.com.co | External point of contact for licence questions and claimed violations |
 | Second maintainer | David Alejandro Blandón Román — contact@basisnetwork.com.co | Equal access to the repositories: can review, merge and release while the programme lead is unavailable |
+| Legal expertise | External counsel retained by the organisation, reached through the programme lead | Advice on licence obligations, incompatibilities and claimed violations, internal and external |
 
 **Both programme roles above are held by one person**, and the second
 maintainer is a backstop for access rather than a second reviewer. We state it
@@ -182,13 +183,18 @@ The records this review produces — assessed competence, awareness, scope,
 components, the artifact archive and the review log itself — are kept in the
 [programme records](./OPENCHAIN-PROGRAMME-RECORDS.md).
 
-**Self-certification status:** the OpenChain self-certification checklist for
-ISO/IEC 5230:2020 has been completed and is published at
-[`OPENCHAIN-5230-CHECKLIST.md`](./OPENCHAIN-5230-CHECKLIST.md), with a pointer
-to the evidence for every item. As of the 2026-08-24 review, **28 of 34 items
-are met and six are open**, so we do not yet claim conformance. The open items
-and what closes each are listed at the end of that checklist. The declaration
-is signed by the programme lead and published here once they close.
+**Self-certification status: conformant.** Basis Network declares conformance
+with ISO/IEC 5230:2020, self-certified on **2026-08-24** against the OpenChain
+ISO/IEC 5230 Self-Certification Checklist. All **34 of 34** items are met, each
+with a pointer to the evidence, in
+[`OPENCHAIN-5230-CHECKLIST.md`](./OPENCHAIN-5230-CHECKLIST.md), where the full
+declaration is published.
+
+The declaration covers the scope in
+[§1.2 of the programme records](./OPENCHAIN-PROGRAMME-RECORDS.md#12-scope-statement)
+and no more. This is a self-certification: no third party assessed it, we say
+so plainly, and every item points at something a reader can check without
+asking us.
 
 ## Reporting a compliance concern
 

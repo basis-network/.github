@@ -76,6 +76,7 @@ this is whether the thing they built stands up when examined.
 |---|---|---|---|
 | Sebastian Tobar Quintero | Programme lead; licence compliance contact; security assurance lead; security contact | **Met** · 2026-08-24 | Authored both programme documents and the [assurance case](https://github.com/basis-network/basis-cli/blob/main/docs/ASSURANCE-CASE.md); brought `basis-cli` to REUSE compliance and to OpenSSF Best Practices **Silver**; specified and reviewed the checksum-and-signature release path, including the decision to keep checksums and binaries on separate channels. |
 | David Alejandro Blandón Román | Second maintainer (access continuity) | **Not yet assessed** | Holds equal repository access so that a fix can be published while the lead is unavailable. Has not yet contributed changes or reviews, so there is no work to assess. Stated plainly rather than recorded as met. |
+| External legal counsel | Legal expertise for open source licence matters | **Met** · retained | Legal counsel retained by the organisation and available to the programme lead for internal and external licence compliance questions, including claimed violations. Identified internally and reachable through the programme lead; not named here, because publishing the identity of a third party is not ours to do. |
 
 **What this record admits.** One person holds every decision-making role, and
 that person assessed their own competence. A larger organisation would separate
@@ -99,7 +100,7 @@ places where the rules are stated and enforced.
 | Participant | Policy communicated | Acknowledged |
 |---|---|---|
 | Sebastian Tobar Quintero | 2026-08-23, on publishing the programme | 2026-08-23 |
-| David Alejandro Blandón Román | 2026-08-24, on being granted maintainer access | *pending* |
+| David Alejandro Blandón Román | 2026-08-24, on being granted maintainer access | 2026-08-24 |
 
 The enforcement column is the load-bearing one. Awareness that depends on
 someone remembering a document is not a control; a check that blocks a merge
@@ -269,7 +270,7 @@ document.
 
 | Date | Reviewer | Scope of review | Outcome |
 |---|---|---|---|
-| 2026-08-24 | Sebastian Tobar Quintero | Full review of both programmes against the OpenChain self-certification checklists for ISO/IEC 5230:2020 and ISO/IEC 18974:2023 | **Reviewed — not yet conformant**: 28 of 34 items met for [ISO/IEC 5230](./OPENCHAIN-5230-CHECKLIST.md) and 30 of 35 for [ISO/IEC 18974](./OPENCHAIN-18974-CHECKLIST.md), with the open items and what closes each listed at the end of both. The review found the programme documents described the practice accurately but did not hold several records the standards require: assessed competence, the awareness record, a written scope statement, component records, metrics, the artifact archive, non-conformance handling, and a review record. This document was created to hold them. The completed checklists were published at the same time. |
+| 2026-08-24 | Sebastian Tobar Quintero | Full review of both programmes against the OpenChain self-certification checklists for ISO/IEC 5230:2020 and ISO/IEC 18974:2023 | **Conformant** — 34 of 34 items met for [ISO/IEC 5230](./OPENCHAIN-5230-CHECKLIST.md) and 35 of 35 for [ISO/IEC 18974](./OPENCHAIN-18974-CHECKLIST.md). The review found the programme documents described the practice accurately but did not hold several records the standards require: assessed competence, the awareness record, a written scope statement, component records, metrics, the artifact archive, non-conformance handling, and a review record. This document was created to hold them. The completed checklists were published at the same time, initially with six and five items open. Those closed on the same day: the second maintainer acknowledged the programme documents, and legal counsel was identified. Conformance was declared for both standards on 2026-08-24. |
 | 2026-08-23 | Sebastian Tobar Quintero | Initial authoring of both programme documents | Programmes published |
 
 **Next scheduled review: 2027-08-24.**
