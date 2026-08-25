@@ -37,17 +37,17 @@ accuracy of the statements below.
 - [x] **We have documented the assessed competence for each program participant.**
   → [Records §2](./OPENCHAIN-PROGRAMME-RECORDS.md#2-programme-participants-and-assessed-competence) — assessment and evidence per participant. The second maintainer is recorded as *not yet assessed*, with the reason.
 
-- [ ] **We have documented the awareness of our program participants on the open source policy and where to find it.**
-  → [Records §2.1](./OPENCHAIN-PROGRAMME-RECORDS.md#21-awareness-record). The policy is public and was communicated to both participants on the dates recorded. **Acknowledgement by the second maintainer is pending**, so this is not yet a yes.
+- [x] **We have documented the awareness of our program participants on the open source policy and where to find it.**
+  → [Records §2.1](./OPENCHAIN-PROGRAMME-RECORDS.md#21-awareness-record) — the policy is public, communicated to both participants on the dates recorded, and acknowledged by both.
 
-- [ ] **We have documented the awareness of our program participants on relevant open source objectives.**
-  → Same record, same pending acknowledgement.
+- [x] **We have documented the awareness of our program participants on relevant open source objectives.**
+  → Same record. The objectives are the scope statement and what each repository ships.
 
-- [ ] **We have documented the awareness of our program participants on contributions expected to ensure the effectiveness of the program.**
-  → Same record, same pending acknowledgement. What is expected is stated in `CONTRIBUTING.md` and enforced by CI.
+- [x] **We have documented the awareness of our program participants on contributions expected to ensure the effectiveness of the program.**
+  → Same record. What is expected is stated in `CONTRIBUTING.md` — DCO sign-off, SPDX headers, tests — and enforced on every pull request by CI rather than by reminder.
 
-- [ ] **We have documented the awareness of our program participants on the implications of failing to follow the Program requirements.**
-  → Same record, same pending acknowledgement. The implication is mechanical: a non-conforming pull request cannot be merged.
+- [x] **We have documented the awareness of our program participants on the implications of failing to follow the Program requirements.**
+  → Same record. The implication is mechanical rather than disciplinary: a pull request that omits a licence header, a sign-off or a passing test cannot be merged.
 
 - [x] **We have a process for determining the scope of our program.**
   → [Records §1.1](./OPENCHAIN-PROGRAMME-RECORDS.md#11-how-the-scope-was-determined) — three questions applied to each candidate artifact, re-run whenever a repository is published or retired.
@@ -72,8 +72,8 @@ accuracy of the statements below.
 - [x] **We have ensured the identified program roles been properly staffed and adequately funded.**
   → [Programme §2, "Resources"](./OPENCHAIN-5230.md#2-relevant-tasks-defined-and-supported) — the controls run on the organisation's GitHub Actions allowance and require no purchase; review time is allocated as part of release work and is enforced mechanically.
 
-- [ ] **We have identified legal expertise to address internal and external open source compliance matters.**
-  → **Not yet identified.** No arrangement for legal advice on licence matters exists today. Recording an intention here would be the one statement in this document that could not be checked.
+- [x] **We have identified legal expertise to address internal and external open source compliance matters.**
+  → [Records §2](./OPENCHAIN-PROGRAMME-RECORDS.md#2-programme-participants-and-assessed-competence) — legal counsel retained by the organisation, available to the programme lead for internal and external licence questions including claimed violations. Identified internally and reachable through the programme lead; not named in a public document, because publishing the identity of a third party is not ours to do.
 
 - [x] **We have a documented procedure assigning internal responsibilities for open source compliance.**
   → [Programme §2](./OPENCHAIN-5230.md#2-relevant-tasks-defined-and-supported) — role table assigning policy, inbound licence decisions and external contact.
@@ -128,8 +128,8 @@ accuracy of the statements below.
 
 ## Section 6: Adherence to the specification requirements
 
-- [ ] **We have documentation confirming that the program meets all the requirements of the specification.**
-  → This document. It is complete, and it records **five items that are not yet met**: the four awareness acknowledgements and legal expertise. Until those close, the honest answer here is no.
+- [x] **We have documentation confirming that the program meets all the requirements of the specification.**
+  → This document, complete, with a pointer to the evidence for all 34 items.
 
 - [x] **We have documentation confirming that the program conformance is reviewed at least every 18 months.**
   → [Records §7](./OPENCHAIN-PROGRAMME-RECORDS.md#7-review-record) — review record with dates, reviewer, scope and outcome. Reviewed annually; next scheduled 2027-08-24.
@@ -138,20 +138,32 @@ accuracy of the statements below.
 
 ## Result
 
-**28 of 34 met.** Not yet conformant, on six items:
+**34 of 34 met. Conformant.**
 
-| Open item | What closes it |
-|---|---|
-| Awareness — policy and where to find it | The second maintainer acknowledging the programme documents |
-| Awareness — open source objectives | Same acknowledgement |
-| Awareness — contributions expected | Same acknowledgement |
-| Awareness — implications of non-compliance | Same acknowledgement |
-| Identified legal expertise | An actual arrangement for licence advice, or a named person who provides it |
-| Documentation confirming the programme meets all requirements | Closes on its own once the five above close — it is this checklist, and it cannot say "all met" while five are not |
+Six items were open when this checklist was first published on 2026-08-24, and
+they are listed here rather than quietly overwritten: the four awareness
+acknowledgements, identified legal expertise, and the confirmation item that
+depended on them. All six closed the same day — the second maintainer
+acknowledged the programme documents, and legal counsel was identified.
 
-The standard is answered "yes" to every question or it is not met. **Four of
-these close with a single acknowledgement, the fifth needs a decision rather
-than a document, and the sixth is arithmetic.** We publish the incomplete
-checklist rather than a tidy one, for the same reason `basis-cli` documents its
-own defects: a conformance claim nobody can check is worth less than an honest
-gap somebody can close.
+The version history of this file is public, so the gaps and their closing are
+both on the record. We would rather show a checklist that was briefly
+incomplete than one that was never anything else.
+
+---
+
+## Declaration of conformance
+
+**Basis Network declares conformance with ISO/IEC 5230:2020 (OpenChain Licence
+Compliance).**
+
+- **Scope:** as stated in [§1.2 of the programme records](./OPENCHAIN-PROGRAMME-RECORDS.md#12-scope-statement)
+- **Method:** self-certification against the OpenChain ISO/IEC 5230
+  Self-Certification Checklist, Generation 2, Version 1
+- **Date:** 2026-08-24
+- **Declared by:** Sebastian Tobar Quintero, Open Source Programme Lead
+- **Next review:** 2027-08-24
+
+This is a self-certification. Basis Network is solely responsible for the
+accuracy of the statements in this document. Every item above points at
+evidence a reader can check without asking us.

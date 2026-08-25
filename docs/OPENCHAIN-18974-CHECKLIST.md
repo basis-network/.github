@@ -48,17 +48,17 @@ Companion to the [ISO/IEC 5230 checklist](./OPENCHAIN-5230-CHECKLIST.md).
 
 ## Section 4.1.3 — Awareness
 
-- [ ] **Our Program Participants are aware of the open source security assurance policy and where to find it.**
-  → [Records §2.1](./OPENCHAIN-PROGRAMME-RECORDS.md#21-awareness-record). Public and communicated on the recorded dates; **acknowledgement by the second maintainer is pending**.
+- [x] **Our Program Participants are aware of the open source security assurance policy and where to find it.**
+  → [Records §2.1](./OPENCHAIN-PROGRAMME-RECORDS.md#21-awareness-record) — public, communicated on the recorded dates, and acknowledged by both participants.
 
-- [ ] **Our Program Participants are aware of relevant open source objectives.**
-  → Same record, same pending acknowledgement.
+- [x] **Our Program Participants are aware of relevant open source objectives.**
+  → Same record. The objectives are the scope statement and what each repository ships.
 
-- [ ] **Our Program Participants are aware of contributions expected to ensure the effectiveness of the Program.**
-  → Same record, same pending acknowledgement.
+- [x] **Our Program Participants are aware of contributions expected to ensure the effectiveness of the Program.**
+  → Same record. Stated in `CONTRIBUTING.md` and enforced on every pull request by blocking CI.
 
-- [ ] **Our Program Participants are aware of the implications of failing to follow the Program requirements.**
-  → Same record, same pending acknowledgement. The implication is mechanical: a pull request that fails a security check cannot be merged.
+- [x] **Our Program Participants are aware of the implications of failing to follow the Program requirements.**
+  → Same record. The implication is mechanical rather than disciplinary: a pull request that fails a security check cannot be merged.
 
 ## Section 4.1.4 — Scope, metrics and evidence
 
@@ -137,8 +137,8 @@ Companion to the [ISO/IEC 5230 checklist](./OPENCHAIN-5230-CHECKLIST.md).
 
 ## Section 4.4.1 — Adherence
 
-- [ ] **We have documentation confirming that the Program meets all the requirements of this specification.**
-  → This document. It records **four items not yet met** — the awareness acknowledgements — so the honest answer here is no until they close.
+- [x] **We have documentation confirming that the Program meets all the requirements of this specification.**
+  → This document, complete, with a pointer to the evidence for all 35 items.
 
 ## Section 4.4.2 — Review
 
@@ -149,17 +149,35 @@ Companion to the [ISO/IEC 5230 checklist](./OPENCHAIN-5230-CHECKLIST.md).
 
 ## Result
 
-**30 of 35 met.** Not yet conformant, on five items:
+**35 of 35 met. Conformant.**
 
-| Open item | What closes it |
-|---|---|
-| Awareness — security assurance policy and where to find it | The second maintainer acknowledging the programme documents |
-| Awareness — open source objectives | Same acknowledgement |
-| Awareness — contributions expected | Same acknowledgement |
-| Awareness — implications of non-conformance | Same acknowledgement |
-| Documentation confirming the Programme meets all requirements | Closes on its own once the four above close |
+Five items were open when this checklist was first published on 2026-08-24 —
+the four awareness acknowledgements and the confirmation item that depended on
+them. All five closed the same day, when the second maintainer acknowledged the
+programme documents. The version history of this file is public, so both the
+gap and its closing are on the record.
 
-**All five close with one acknowledgement.** Unlike the licence compliance
-checklist, this one has no item that needs a decision: ISO/IEC 18974 asks for
-expertise to address known vulnerabilities, which is recorded and assessed,
-rather than for legal expertise, which we do not yet have.
+---
+
+## Declaration of conformance
+
+**Basis Network declares conformance with ISO/IEC 18974:2023 (OpenChain
+Security Assurance).**
+
+- **Scope:** as stated in [§1.2 of the programme records](./OPENCHAIN-PROGRAMME-RECORDS.md#12-scope-statement)
+- **Method:** self-certification against the OpenChain ISO/IEC 18974
+  Self-Certification Checklist
+- **Date:** 2026-08-24
+- **Declared by:** Sebastian Tobar Quintero, Security Assurance Lead
+- **Next review:** 2027-08-24
+
+This is a self-certification. Basis Network is solely responsible for the
+accuracy of the statements in this document.
+
+**What conformance does not claim.** It does not say the software is free of
+vulnerabilities, and it does not say every control exists: [§3.1 of the
+programme](./OPENCHAIN-18974.md#31-identifying-vulnerabilities) records that we
+do no fuzzing and that dependency scanning of the node workspace is not public.
+The standard asks for a programme that identifies, tracks and remediates — not
+for a perfect one — and a declaration that implied otherwise would be the kind
+of claim this programme exists to avoid.

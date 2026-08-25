@@ -157,12 +157,15 @@ Programme participants, assessed competence, scope, metrics, component records
 including known vulnerabilities and action taken, and the review log are kept
 in the [programme records](./OPENCHAIN-PROGRAMME-RECORDS.md).
 
-**Self-certification status:** the OpenChain self-certification checklist for
-ISO/IEC 18974:2023 has been completed and is published at
-[`OPENCHAIN-18974-CHECKLIST.md`](./OPENCHAIN-18974-CHECKLIST.md). As of the
-2026-08-24 review, **30 of 35 items are met and five are open**, all five
-closing on a single acknowledgement. We do not claim conformance until they do.
-The declaration is signed by the security assurance lead and published here.
+**Self-certification status: conformant.** Basis Network declares conformance
+with ISO/IEC 18974:2023, self-certified on **2026-08-24**. All **35 of 35**
+items are met, each with a pointer to the evidence, in
+[`OPENCHAIN-18974-CHECKLIST.md`](./OPENCHAIN-18974-CHECKLIST.md), where the
+full declaration is published.
+
+Conformance means the programme identifies, tracks and remediates. It does not
+mean the software has no vulnerabilities, and it does not mean every control
+exists — §3.1 above records the two that do not.
 
 ## Reporting
 

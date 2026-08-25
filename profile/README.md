@@ -52,12 +52,14 @@ Our open source programme is documented under
 and [security assurance](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974.md),
 against ISO/IEC 5230 and ISO/IEC 18974, with the
 [records](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-PROGRAMME-RECORDS.md)
-both standards require. The OpenChain self-certification checklists are
-published answered —
-[5230](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-5230-CHECKLIST.md),
-[18974](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974-CHECKLIST.md)
-— including the items we have **not** met, because a conformance claim you
-cannot check is worth less than a gap you can.
+both standards require. Both OpenChain self-certification
+checklists are published answered —
+[5230](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-5230-CHECKLIST.md)
+and
+[18974](https://github.com/basis-network/.github/blob/main/docs/OPENCHAIN-18974-CHECKLIST.md),
+conformance declared 2026-08-24 — with a pointer to the evidence for every
+item rather than a bare tick, because a conformance claim you cannot check is
+worth less than one you can.
 
 ## Contact
 
