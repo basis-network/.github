@@ -58,8 +58,8 @@ The person named in §2 maintains working knowledge of:
 
 | Role | Person | Responsibility |
 |---|---|---|
-| Security assurance lead | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Policy, triage, remediation decisions, coordinated disclosure |
-| Security contact | Sebastian Tobar Quintero — contact@basisnetwork.com.co | Receives reports |
+| Security assurance lead | Sebastian Tobar Quintero — security@basisnetwork.com.co | Policy, triage, remediation decisions, coordinated disclosure |
+| Security contact | Sebastian Tobar Quintero — security@basisnetwork.com.co | Receives reports |
 | Second maintainer | David Alejandro Blandón Román — contact@basisnetwork.com.co | Equal access to the repositories: can publish a fix and a release while the assurance lead is unavailable |
 
 **Triage and disclosure remain one person's**, and that is the main limitation
@@ -169,5 +169,5 @@ exists — §3.1 above records the two that do not.
 
 ## Reporting
 
-**contact@basisnetwork.com.co**, with `[security]` in the subject. Never in a
+**security@basisnetwork.com.co**, with `[security]` in the subject. Never in a
 public issue.

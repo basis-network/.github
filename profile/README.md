@@ -63,7 +63,12 @@ worth less than one you can.
 
 ## Contact
 
-**contact@basisnetwork.com.co** — including for security reports, which should
-never go in a public issue. See each repository's `SECURITY.md`.
+**security@basisnetwork.com.co** for a vulnerability — never a public issue.
+See each repository's `SECURITY.md` for what to include and how long we take.
+
+**conduct@basisnetwork.com.co** for a code of conduct report.
+
+**contact@basisnetwork.com.co** for everything else, licence questions
+included.
 
 [basisnetwork.com.co](https://basisnetwork.com.co)

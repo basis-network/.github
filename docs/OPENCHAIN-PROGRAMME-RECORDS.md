@@ -179,7 +179,7 @@ How an entry gets here:
 - **Dependabot** raises a pull request when a pinned component moves. The pull
   request is the record: it carries the advisory, the version change and the
   decision, and it is preserved whether it is merged or closed.
-- **A report** to `contact@basisnetwork.com.co` or a GitHub security advisory
+- **A report** to `security@basisnetwork.com.co` or a GitHub security advisory
   is triaged under [§4 of the security assurance programme](./OPENCHAIN-18974.md#4-documented-response-process)
   and lands here with its outcome.
 - **Scorecard and CodeQL** findings that concern a component rather than our
@@ -206,7 +206,7 @@ metric nobody reads.
 | Statement coverage of the distributed script | `make coverage`, blocking below 90 % | **98.1 %** |
 | Static analysis findings in shipped shell | `shellcheck` in CI | **0** — blocking |
 | Released assets whose checksum disagrees with git | Release workflow | **0** — a mismatch fails the release |
-| Vulnerability reports received | Security advisories and `contact@basisnetwork.com.co` | **0** to date |
+| Vulnerability reports received | Security advisories and `security@basisnetwork.com.co` | **0** to date |
 | Median time to acknowledge a report | Same | *no data — no reports yet* |
 | Dependencies behind their pinned version | Dependabot, weekly | tracked per pull request |
 
