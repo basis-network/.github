@@ -100,7 +100,7 @@ Companion to the [ISO/IEC 5230 checklist](./OPENCHAIN-5230-CHECKLIST.md).
 ## Section 4.2.1 — Receiving reports
 
 - [x] **We have a method to allow third parties to make Known Vulnerability or Newly Discovered Vulnerability enquires.**
-  → `SECURITY.md` in every repository: `contact@basisnetwork.com.co` with `[security]` in the subject, plus GitHub private security advisories. Issue templates route security reports away from public issues.
+  → `SECURITY.md` in every repository: `security@basisnetwork.com.co` with `[security]` in the subject, plus GitHub private security advisories. Issue templates route security reports away from public issues.
 
 - [x] **We have an internal documented procedure for responding to third party Known Vulnerability or Newly Discovered Vulnerability inquiries.**
   → `SECURITY.md`, "How a report is handled" — six steps — with the timelines in [Programme §4](./OPENCHAIN-18974.md#4-documented-response-process): acknowledgement 3 working days, first assessment 10, fix or stated plan 90.

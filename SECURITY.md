@@ -10,7 +10,7 @@ organisation. A repository with its own `SECURITY.md` overrides this one.
 
 ## Reporting a vulnerability
 
-Email **contact@basisnetwork.com.co** with `[security]` in the subject.
+Email **security@basisnetwork.com.co** with `[security]` in the subject.
 **Never open a public issue for a vulnerability.**
 
 Include what you can: what you did, what happened, what you expected, and the
