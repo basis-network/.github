@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 
 **Applies to:** [ISO/IEC 5230 licence compliance](./OPENCHAIN-5230.md) and
 [ISO/IEC 18974 security assurance](./OPENCHAIN-18974.md)
-**Version:** 1.0 · 2026-08-24
+**Version:** 1.1 · 2026-10-07
 **Next review:** 2027-08-24
 
 The two programme documents describe what we do. This one holds the records
@@ -172,7 +172,7 @@ it will be made again.
 
 | Date | Component | Vulnerability | Assessment | Action |
 |---|---|---|---|---|
-| — | — | — | — | *None identified to date.* |
+| 2026-10-06 | `download.sh`, in [basis-cli](https://github.com/basis-network/basis-cli) — our own code | [GHSA-6g2j-56rg-33x4](https://github.com/basis-network/basis-cli/security/advisories/GHSA-6g2j-56rg-33x4), CWE-636 and CWE-459. A run that failed verification, or whose transfer broke off, over a binary verified on an earlier run left the unverified bytes in its place, still executable | **Moderate.** Found in a maintainer's review of a contributor's pull request, not reported. Reachable only by someone who can already replace a release asset or defeat TLS, and only harmful if the user then runs the binary the script said had failed. The v0.1.0 assets were downloaded again and still match their committed checksums; no sign it was ever used | Fixed in basis-cli `924b946` (#37): assets are fetched and verified in a staging directory and moved into place only after the whole set passes; malformed checksum lines and empty checksum files are refused; a failed check stops the script explicitly. Covered by new regression cases. Named in the `CHANGELOG`; advisory published 2026-10-07. No release was cut, because `download.sh` reaches users through git rather than as a release asset: `git pull` is the update |
 
 How an entry gets here:
 
@@ -185,10 +185,11 @@ How an entry gets here:
 - **Scorecard and CodeQL** findings that concern a component rather than our
   own code are assessed and recorded the same way.
 
-The table is empty because nothing has been identified, not because nothing is
-being watched. The controls that would populate it are listed in
+The controls that populate this table are listed in
 [§3.1 of the security assurance programme](./OPENCHAIN-18974.md#31-identifying-vulnerabilities),
-along with the two that do not exist.
+along with the two that do not exist. The first entry came from none of them:
+it was a person reading the code, and the control it showed was missing — a
+test that runs `download.sh` twice — now exists.
 
 ---
 
@@ -198,15 +199,16 @@ ISO/IEC 18974 asks for metrics that measure programme performance. Ours are the
 numbers the programme already produces, because a metric nobody generates is a
 metric nobody reads.
 
-| Metric | Source | Reading on 2026-08-24 |
+| Metric | Source | Reading on 2026-10-07 |
 |---|---|---|
 | Files without licence or copyright information | `reuse lint` in CI | **0** — blocking, so any other value stops the build |
-| Supply-chain posture | [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/basis-network/basis-cli) | **7.1 / 10** |
+| Supply-chain posture | [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/basis-network/basis-cli) | **7.3 / 10** |
 | Open source practice conformance | [OpenSSF Best Practices](https://www.bestpractices.dev/projects/14224) | **Silver** (gold 78 %) |
-| Statement coverage of the distributed script | `make coverage`, blocking below 90 % | **98.1 %** |
+| Statement coverage of the distributed script | `make coverage`, blocking below 90 % | **98.6 %** |
 | Static analysis findings in shipped shell | `shellcheck` in CI | **0** — blocking |
 | Released assets whose checksum disagrees with git | Release workflow | **0** — a mismatch fails the release |
 | Vulnerability reports received | Security advisories and `security@basisnetwork.com.co` | **0** to date |
+| Security advisories published | GitHub security advisories | **1** — [GHSA-6g2j-56rg-33x4](https://github.com/basis-network/basis-cli/security/advisories/GHSA-6g2j-56rg-33x4), found in our own review; fixed and published within a day |
 | Median time to acknowledge a report | Same | *no data — no reports yet* |
 | Dependencies behind their pinned version | Dependabot, weekly | tracked per pull request |
 
@@ -270,6 +272,7 @@ document.
 
 | Date | Reviewer | Scope of review | Outcome |
 |---|---|---|---|
+| 2026-10-07 | Sebastian Tobar Quintero | §3.5 and §4, after [GHSA-6g2j-56rg-33x4](https://github.com/basis-network/basis-cli/security/advisories/GHSA-6g2j-56rg-33x4) | First entry in the known-vulnerabilities record, and the metrics read again. The response followed [§3.2 of the security assurance programme](./OPENCHAIN-18974.md#32-remediation) — assessed, fixed the same day, named in the `CHANGELOG`, disclosed — with one difference stated in the entry: no release, since the fixed file is not a release asset. There was no external reporter to notify. **Conformance unchanged.** |
 | 2026-08-24 | Sebastian Tobar Quintero | Full review of both programmes against the OpenChain self-certification checklists for ISO/IEC 5230:2020 and ISO/IEC 18974:2023 | **Conformant** — 34 of 34 items met for [ISO/IEC 5230](./OPENCHAIN-5230-CHECKLIST.md) and 35 of 35 for [ISO/IEC 18974](./OPENCHAIN-18974-CHECKLIST.md). The review found the programme documents described the practice accurately but did not hold several records the standards require: assessed competence, the awareness record, a written scope statement, component records, metrics, the artifact archive, non-conformance handling, and a review record. This document was created to hold them. The completed checklists were published at the same time, initially with six and five items open. Those closed on the same day: the second maintainer acknowledged the programme documents, and legal counsel was identified. Conformance was declared for both standards on 2026-08-24. |
 | 2026-08-23 | Sebastian Tobar Quintero | Initial authoring of both programme documents | Programmes published |
 
